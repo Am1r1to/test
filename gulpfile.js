@@ -1,19 +1,12 @@
 // déclaration des variables:
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-
 sass.compiler = require('node-sass');
-
 var rename = require("gulp-rename");
-
 var browserSync = require('browser-sync').create();
-
 var uglify = require('gulp-uglify');
 var pipeline = require('readable-stream').pipeline;
-
-
 var image = require('gulp-image');
-
 var autoprefixer = require('gulp-autoprefixer');
 
 
